@@ -5,6 +5,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+#ZSH_THEME="powerlevel10k/powerlevel10k"
+
 # Export nvm completion settings for lukechilds/zsh-nvm plugin
 # Note: This must be exported before the plugin is bundled
 export NVM_DIR=${HOME}/.nvm

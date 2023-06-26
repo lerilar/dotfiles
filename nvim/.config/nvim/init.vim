@@ -41,7 +41,8 @@ Plug 'nvim-lualine/lualine.nvim'                   " Status line
 Plug 'akinsho/bufferline.nvim'                     " Buffers
 Plug 'machakann/vim-highlightedyank'               " Highlight yanked text
 Plug 'kyazdani42/nvim-tree.lua'                    " File explorer
-Plug 'folke/tokyonight.nvim', { 'branch': 'main' } " Color scheme
+"Plug 'folke/tokyonight.nvim', { 'branch': 'main' } " Color scheme
+Plug 'sainnhe/gruvbox-material' 
 " Lsp
 Plug 'neovim/nvim-lspconfig'     
 Plug 'jose-elias-alvarez/null-ls.nvim'
@@ -68,7 +69,8 @@ lua require('jakewies')
 " --- Colors
 
 set background=dark
-colorscheme tokyonight
+"#colorscheme tokyonight
+colorscheme gruvbox-material
 
 
 " --- Remaps

@@ -43,7 +43,7 @@ end
 
 -- nvim-cmp almost supports LSP's capabilities so You should advertise it to LSP servers..
 local capabilities = vim.lsp.protocol.make_client_capabilities()
-capabilities = cmp_nvim_lsp.update_capabilities(capabilities)
+capabilities = cmp_nvim_lsp.default_capabilities(capabilities)
 
 -- Use a loop t conveniently call 'setup' on multiple servers and
 -- map buffer local keybindings when the language server attaches
