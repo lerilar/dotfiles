@@ -1,7 +1,9 @@
+" --- Last updated: 27.06.2023
+"
 " --- General 
 
 let mapleader = " "
-
+"-- All kinds of settings
 set termguicolors
 set tabstop=4 
 set softtabstop=4
@@ -41,21 +43,26 @@ Plug 'nvim-lualine/lualine.nvim'                   " Status line
 Plug 'akinsho/bufferline.nvim'                     " Buffers
 Plug 'machakann/vim-highlightedyank'               " Highlight yanked text
 Plug 'kyazdani42/nvim-tree.lua'                    " File explorer
+
 "Plug 'folke/tokyonight.nvim', { 'branch': 'main' } " Color scheme
 Plug 'sainnhe/gruvbox-material' 
+
 " Lsp
 Plug 'neovim/nvim-lspconfig'     
 Plug 'jose-elias-alvarez/null-ls.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
 " Autocompletion
 Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'onsails/lspkind-nvim'
+
 " Git
 Plug 'tpope/vim-fugitive'
 Plug 'lewis6991/gitsigns.nvim'
+
 " Telescope
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
